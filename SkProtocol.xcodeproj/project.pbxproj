@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6358946B1DD05CDA00528A32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358946A1DD05CDA00528A32 /* main.m */; };
+		635894731DD05E1E00528A32 /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 635894721DD05E1E00528A32 /* Students.m */; };
+		635894761DD061F100528A32 /* Standard 8.m in Sources */ = {isa = PBXBuildFile; fileRef = 635894751DD061F100528A32 /* Standard 8.m */; };
+		635894791DD0625400528A32 /* College Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 635894781DD0625400528A32 /* College Students.m */; };
+		6358947C1DD062BC00528A32 /* First Year Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358947B1DD062BC00528A32 /* First Year Students.m */; };
+		6358947F1DD062D600528A32 /* Second Year Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358947E1DD062D600528A32 /* Second Year Students.m */; };
+		635894821DD0639700528A32 /* Standard 12.m in Sources */ = {isa = PBXBuildFile; fileRef = 635894811DD0639700528A32 /* Standard 12.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		635894651DD05CDA00528A32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		635894671DD05CDA00528A32 /* SkProtocol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SkProtocol; sourceTree = BUILT_PRODUCTS_DIR; };
+		6358946A1DD05CDA00528A32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635894711DD05E1E00528A32 /* Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
+		635894721DD05E1E00528A32 /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
+		635894741DD061F100528A32 /* Standard 8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Standard 8.h"; sourceTree = "<group>"; };
+		635894751DD061F100528A32 /* Standard 8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Standard 8.m"; sourceTree = "<group>"; };
+		635894771DD0625400528A32 /* College Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "College Students.h"; sourceTree = "<group>"; };
+		635894781DD0625400528A32 /* College Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "College Students.m"; sourceTree = "<group>"; };
+		6358947A1DD062BC00528A32 /* First Year Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "First Year Students.h"; sourceTree = "<group>"; };
+		6358947B1DD062BC00528A32 /* First Year Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "First Year Students.m"; sourceTree = "<group>"; };
+		6358947D1DD062D600528A32 /* Second Year Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Second Year Students.h"; sourceTree = "<group>"; };
+		6358947E1DD062D600528A32 /* Second Year Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Second Year Students.m"; sourceTree = "<group>"; };
+		635894801DD0639700528A32 /* Standard 12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Standard 12.h"; sourceTree = "<group>"; };
+		635894811DD0639700528A32 /* Standard 12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Standard 12.m"; sourceTree = "<group>"; };
+		635894831DD064B400528A32 /* StudyLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyLevel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635894641DD05CDA00528A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6358945E1DD05CDA00528A32 = {
+			isa = PBXGroup;
+			children = (
+				635894691DD05CDA00528A32 /* SkProtocol */,
+				635894681DD05CDA00528A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635894681DD05CDA00528A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635894671DD05CDA00528A32 /* SkProtocol */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635894691DD05CDA00528A32 /* SkProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				6358946A1DD05CDA00528A32 /* main.m */,
+				635894831DD064B400528A32 /* StudyLevel.h */,
+				635894841DD065A700528A32 /* College Tree */,
+				635894851DD065CB00528A32 /* School Tree */,
+			);
+			path = SkProtocol;
+			sourceTree = "<group>";
+		};
+		635894841DD065A700528A32 /* College Tree */ = {
+			isa = PBXGroup;
+			children = (
+				635894771DD0625400528A32 /* College Students.h */,
+				635894781DD0625400528A32 /* College Students.m */,
+				6358947A1DD062BC00528A32 /* First Year Students.h */,
+				6358947B1DD062BC00528A32 /* First Year Students.m */,
+				6358947D1DD062D600528A32 /* Second Year Students.h */,
+				6358947E1DD062D600528A32 /* Second Year Students.m */,
+			);
+			name = "College Tree";
+			sourceTree = "<group>";
+		};
+		635894851DD065CB00528A32 /* School Tree */ = {
+			isa = PBXGroup;
+			children = (
+				635894711DD05E1E00528A32 /* Students.h */,
+				635894721DD05E1E00528A32 /* Students.m */,
+				635894801DD0639700528A32 /* Standard 12.h */,
+				635894811DD0639700528A32 /* Standard 12.m */,
+				635894741DD061F100528A32 /* Standard 8.h */,
+				635894751DD061F100528A32 /* Standard 8.m */,
+			);
+			name = "School Tree";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635894661DD05CDA00528A32 /* SkProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6358946E1DD05CDA00528A32 /* Build configuration list for PBXNativeTarget "SkProtocol" */;
+			buildPhases = (
+				635894631DD05CDA00528A32 /* Sources */,
+				635894641DD05CDA00528A32 /* Frameworks */,
+				635894651DD05CDA00528A32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkProtocol;
+			productName = SkProtocol;
+			productReference = 635894671DD05CDA00528A32 /* SkProtocol */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6358945F1DD05CDA00528A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Felix Its";
+				TargetAttributes = {
+					635894661DD05CDA00528A32 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 635894621DD05CDA00528A32 /* Build configuration list for PBXProject "SkProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6358945E1DD05CDA00528A32;
+			productRefGroup = 635894681DD05CDA00528A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635894661DD05CDA00528A32 /* SkProtocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635894631DD05CDA00528A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635894821DD0639700528A32 /* Standard 12.m in Sources */,
+				635894761DD061F100528A32 /* Standard 8.m in Sources */,
+				6358946B1DD05CDA00528A32 /* main.m in Sources */,
+				635894791DD0625400528A32 /* College Students.m in Sources */,
+				6358947C1DD062BC00528A32 /* First Year Students.m in Sources */,
+				6358947F1DD062D600528A32 /* Second Year Students.m in Sources */,
+				635894731DD05E1E00528A32 /* Students.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6358946C1DD05CDA00528A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6358946D1DD05CDA00528A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6358946F1DD05CDA00528A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		635894701DD05CDA00528A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635894621DD05CDA00528A32 /* Build configuration list for PBXProject "SkProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358946C1DD05CDA00528A32 /* Debug */,
+				6358946D1DD05CDA00528A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6358946E1DD05CDA00528A32 /* Build configuration list for PBXNativeTarget "SkProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6358946F1DD05CDA00528A32 /* Debug */,
+				635894701DD05CDA00528A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6358945F1DD05CDA00528A32 /* Project object */;
+}
